@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="917" height="283" viewBox="0 0 917 283">
+  <defs>
+    <filter id="Eng_Saed">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#101820" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <text id="Eng_Saed-2" data-name="Eng Saed" transform="translate(3 208)" fill="#101820" font-size="227" font-family="Mistral" letter-spacing="0.089em"><tspan x="0" y="0">ENG SAED</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Eng_Saed)">
+      <text id="Eng_Saed-3" data-name="Eng Saed" transform="translate(3 208)" fill="#fff" font-size="227" font-family="Mistral" letter-spacing="0.089em"><tspan x="0" y="0">ENG SAED</tspan></text>
+    </g>
+    <text id="Eng_Saed-4" data-name="Eng Saed" transform="translate(3 208)" stroke="#101820" stroke-linecap="square" stroke-width="3" font-size="227" font-family="Mistral" letter-spacing="0.089em" fill="none"><tspan x="0" y="0">ENG SAED</tspan></text>
+  </g>
+</svg>
